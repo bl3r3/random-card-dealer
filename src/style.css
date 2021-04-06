@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+}
+
+.simbol {
+  margin: 10px;
+  font-size: 4rem;
+}
+
+.card-number {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
